@@ -97,7 +97,7 @@ print("Max reflection angle for red colour, y < 0:",
 print("Max reflection angle for purple colour, y < 0:",
       round(phi2_purple_list[I_purple_phi2.index(max(I_purple_phi2))], 4))
 
-plt.figure(figsize=(20, 16), dpi=300)
+plt.figure(figsize=(12, 8), dpi=300)
 plt.grid()
 plt.title("phi(y) for red and purple colours")
 plt.ylabel("phi, rad")
@@ -108,7 +108,7 @@ plt.plot(y_list, phi2_red_list, 'r', lw=3)
 plt.plot(y_list, phi2_purple_list, 'm', lw=3)
 plt.show()
 
-plt.figure(figsize=(20, 16), dpi=300)
+plt.figure(figsize=(12, 8), dpi=300)
 plt.grid()
 plt.title("I(phi) for red and purple colours")
 plt.ylabel("I, Watt/m^2")
